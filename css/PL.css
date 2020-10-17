@@ -214,7 +214,7 @@ footer div{
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 380px) {
     .features1{
         display: flex;
         flex-direction: row;
