@@ -1,0 +1,276 @@
+body{
+    color: white;    
+    margin: 0vw;
+    padding: 0vw;
+    background-color: rgb(31, 30, 30);
+}
+
+a{
+    text-transform: uppercase;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+ul{
+    list-style: none;
+     
+}
+li{
+    font-size: 5px;
+    margin: 10px;
+    width: auto;
+    border-style: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(184, 22, 224) ,rgb(73, 70, 238));
+    padding: 10px;
+    
+    
+}
+
+
+
+header{
+    background-color: rgb(34, 34, 34);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    
+}
+
+#header-img{
+    margin-left:40px;
+    width: 100px;
+}
+
+header h1{
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav-bar{
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.em{
+    padding: 10%;
+    font-size: 300%;    
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#email{
+    width: 50%;
+    color: rgb(255, 255, 255);
+    border: rgb(111, 0, 255);
+    border-style: solid;
+    
+    font-size: large;
+    font-weight: 900;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: rgb(44, 44, 44)
+    
+
+}
+
+.btn{
+    padding: 10px;
+    width: 100px;
+    border-style: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(184, 22, 224) ,rgb(73, 70, 238));
+}
+
+button:hover{
+    
+    background-image: linear-gradient(rgb(73, 70, 238),rgb(184, 22, 224));
+    color: white;
+}
+
+.features1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 50px;
+    
+        
+}
+
+
+#features h3{
+    margin-top: 40px;
+    font-size: 200%;
+}
+.features1  div{
+    
+    text-align: center;
+    border-radius: 12px;
+    padding:100px;    
+    margin: 10px;
+    
+    color: rgb(243, 243, 243);
+    background-image: linear-gradient(rgb(184, 22, 224) ,rgb(73, 70, 238));
+}
+
+.features1 div > h4{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: auto;
+    font-size: 3rem;
+}
+
+.f{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem !important;
+}
+
+
+.products{
+    
+    padding-top: 70px;
+    text-align: center;
+    font-size: 2rem;
+        
+}
+.products > div{
+    
+    padding-bottom: 30px ;
+   
+}
+
+.products h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+}
+
+.price-top{
+    display: flex;
+    
+
+
+}
+
+.price{
+    text-align: center;
+    border-radius: 12px;
+    padding: 70px;    
+    margin: 50px;
+    
+    color: rgb(243, 243, 243);
+    background-image: linear-gradient(rgb(184, 22, 224) ,rgb(73, 70, 238));
+
+}
+
+.price > .btn{
+    border: white !important;
+    border-style: solid !important;
+    color: black;
+    background-image: none !important;
+    margin-top: 10px;
+}
+.price h3{
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    padding: 10px;
+    background-image: linear-gradient( rgb(31, 30, 30) ,rgb(0, 0, 0));
+
+}
+
+footer div{
+    margin:10px;
+    text-align: center;
+    width: 10%;
+    border-radius: 12px;
+    border-style: solid ;
+    padding: 10px;
+    background-color: white;
+    color: rgb(3, 3, 3);
+    border: white 1px solid;
+    font-weight: bold;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .features1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 10px;
+        padding: 50px;
+        flex-wrap: wrap;
+    }
+    
+    
+
+    nav > ul{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        position: absolute;
+    
+    }
+    #nav-bar{
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .price-top{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #video {
+        height:400px;
+        width:100%;
+        overflow:hidden;
+    }
+    #video > iframe {
+        min-width: 100%;
+        min-height: 100%;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-content: center;
+        padding: 10px;
+        background-image: linear-gradient( rgb(31, 30, 30) ,rgb(0, 0, 0));
+    
+    }
+    footer div{
+        width: 100%;
+    }    
+  }
+
